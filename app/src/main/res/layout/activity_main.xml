@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/linear_container"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/goto_list_button"
+        android:text="Go to the List"
+        android:onClick="goToList"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <EditText
+        android:id="@+id/location_editText"
+        android:layout_width="195dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:hint="Find nearest store" />
+
+    <Button
+        android:id="@+id/open_location_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="openLocation"
+        android:text="Find Location"/>
+
+</LinearLayout>

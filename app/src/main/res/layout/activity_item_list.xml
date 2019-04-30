@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ItemListActivity">
+
+    <CheckBox
+        android:id="@+id/rice"
+        android:text="Rice"
+        android:textSize="20sp"
+        android:onClick="itemSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/banana"
+        android:text="Banana"
+        android:textSize="20sp"
+        android:onClick="itemSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/bread"
+        android:text="Bread"
+        android:textSize="20sp"
+        android:onClick="itemSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/cheese"
+        android:text="Cheese"
+        android:textSize="20sp"
+        android:onClick="itemSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/milk"
+        android:text="Milk"
+        android:textSize="20sp"
+        android:onClick="itemSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/egg"
+        android:text="Egg"
+        android:textSize="20sp"
+        android:onClick="itemSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/coffee"
+        android:text="Coffee"
+        android:textSize="20sp"
+        android:onClick="itemSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/meat"
+        android:text="Meat"
+        android:textSize="20sp"
+        android:onClick="itemSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/veggie"
+        android:text="Veggie"
+        android:textSize="20sp"
+        android:onClick="itemSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/finish_button"
+        android:onClick="finishAdding"
+        android:text="Finish Adding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
